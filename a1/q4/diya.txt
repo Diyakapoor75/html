@@ -1,0 +1,1 @@
+wap to create a web page and create three paragraph in it and give bg color red and last paragraph should be pink

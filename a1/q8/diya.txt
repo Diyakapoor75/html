@@ -1,0 +1,1 @@
+wap where u create 5 sections with heading and paragraph seperate each section with horizontal line give third section bg color red and fifth sec bg color blue 

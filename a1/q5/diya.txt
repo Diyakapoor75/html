@@ -1,0 +1,1 @@
+create a web page requirements : 6 html headings from h1-h6 give every heading bg color red and h6 bg color pink

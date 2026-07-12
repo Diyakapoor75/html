@@ -1,0 +1,1 @@
+wap to create web page with 10 h1 and 10 paragraph tag and give horizontal line btwn both and make 5th element of both h1 and prghr tag to pink color 
