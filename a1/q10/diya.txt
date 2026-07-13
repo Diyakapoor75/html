@@ -1,0 +1,1 @@
+create a table with 3 columns and rows

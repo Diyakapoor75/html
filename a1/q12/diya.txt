@@ -1,0 +1,1 @@
+create a table with 3 rows and columns and table color pink border = 3 cellspacing and padding 5 use thead tbody tfoot

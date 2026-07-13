@@ -1,0 +1,1 @@
+create a table by separating each section using thead tbody and tfoot
