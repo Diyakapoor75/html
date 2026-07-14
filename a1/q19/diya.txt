@@ -1,0 +1,1 @@
+create a form and give following tags like input with text,password,hidden,number,email,and also add a submit button
