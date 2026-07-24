@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>creation of form with table</title>
+</head>
+
+<body>
+    <form>
+        <table>
+            <tr>
+                <td> <label for="firstname"> first name </label></td>
+                <td> <input type="text" id="firstname" placeholder="firstname"></td>
+            </tr>
+            <tr>
+                <td> <label for="lastname"> lastname</label></td>
+                <td><input type="text" id="lastname" placeholder="lastname"></td>
+            </tr>
+            <tr>
+                <td> <label for="emailid"> email id</label></td>
+                <td><input type="email" id="email"></td>
+            </tr>
+            <tr>
+                <td><label for="mobileno">mobile no</label></td>
+                <td>
+                     <input type="number" id="mobileno" minlength="10" maxlength="10" >
+
+                      enter a 10 digit no
+                    </td>
+            </tr>
+            <tr>
+                <td> <label for="gender">gender</label></td>
+                <td>
+                    male 
+                    <input type="radio" id="gender">
+                    female
+                    <input type="radio" id="gender" >
+                </td>
+            </tr>
+            <tr>
+                <td><label for="address"> address</label></td>
+                <td><textarea id="address" rows="5" cols="35"></textarea></td>
+            </tr>
+            <tr>
+                <td> <label for="hobbies">hobbies</label></td>
+                <td>
+                    drawing
+                    <input type="checkbox" id="drawing">
+                    dancing
+                    <input type="checkbox" id="dancing">
+                    singing
+                    <input type="checkbox" id="singing">
+                    sketching
+                    <input type="checkbox" id="sketching">
+                    <br>
+                    others
+                    <input type="checkbox" id="others">
+                    <input type="text" id="others">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="qualification"> qualification</label></td>
+                <td>
+                    <table frame="box">
+                        <tr> 
+                            <th> s.no</th>
+                            <th> examination </th>
+                            <th> board</th>
+                            <th> percentage</th>
+                            <th> year of passing </th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td> class X</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                             <td>
+                                <input type="text">
+                            </td>
+                             <td>
+                                <input type="text">
+                            </td>
+                        
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>class XII</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                             <td>
+                                <input type="text">
+                            </td>
+                             <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                          <tr>
+                            <td>3</td>
+                            <td>graduation</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                             <td>
+                                <input type="text">
+                            </td>
+                             <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                          <tr>
+                            <td>4</td>
+                            <td>masters</td>
+                            <td>
+                                <input type="text">
+                            </td>
+                             <td>
+                                <input type="text">
+                            </td>
+                             <td>
+                                <input type="text">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> </td>
+                            <td> </td>
+                            <td>10 char max</td>
+                            <td> upto 4 decimal</td>
+                        </tr>
+                        
+                    </table>
+                </td>
+            </tr>
+            <tr> 
+                <td>
+                    <label for="Courses applied for " >Coursed <br>applied for </label>
+                    </td>
+                    <td>
+                     bca
+                    <input type="radio">
+                    bcom
+                    <input type="radio">
+                    bsc
+                    <input type="radio">
+                    ba
+                    <input type="radio">
+                </td>
+
+            </tr>
+
+        </table>
+        <button type="submit"> submit </button>
+
+    </form>
+</body>
+</html>
